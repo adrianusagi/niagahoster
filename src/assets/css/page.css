@@ -1,0 +1,725 @@
+@font-face{
+    font-family: "MyRoboto-Regular";
+    src: url("../fonts/roboto/Roboto-Regular.ttf") format('truetype');
+}
+@font-face{
+    font-family: "MyRoboto-Black";
+    src: url("../fonts/roboto/Roboto-Black.ttf") format('truetype');
+}
+@font-face{
+    font-family: "MyRoboto-Bold";
+    src: url("../fonts/roboto/Roboto-Bold.ttf") format('truetype');
+}
+@font-face{
+    font-family: "MyRoboto-Light";
+    src: url("../fonts/roboto/Roboto-Light.ttf") format('truetype');
+}
+
+@font-face{
+    font-family: "MyMontserrat-Regular";
+    src: url("../fonts/montserrat/Montserrat-Regular.otf") format('opentype');
+}
+@font-face{
+    font-family: "MyMontserrat-Light";
+    src: url("../fonts/montserrat/Montserrat-Light.otf") format('opentype');
+}
+@font-face{
+    font-family: "MyMontserrat-Black";
+    src: url("../fonts/montserrat/Montserrat-Black.otf") format('opentype');
+}
+@font-face{
+    font-family: "MyMontserrat-Bold";
+    src: url("../fonts/montserrat/Montserrat-Bold.otf") format('opentype');
+}
+@font-face{
+    font-family: "MyMontserrat-Hairline";
+    src: url("../fonts/montserrat/Montserrat-Hairline.otf") format('opentype');
+}
+
+.top-bar{
+    font-family: "MyRoboto-Regular";
+}
+.header-ribbon{
+    width: 40px;
+    margin-top: -8px;
+}
+.header-top-link{
+    display: block;
+    padding: 12px;
+    font-size: 0.8rem;
+    line-height: 20px;
+    font-weight: 700;
+    color: #666;
+    font-family: 'MyRoboto-Regular';
+}
+.bannder-title1{
+    display: block;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'MyMontserrat-Bold';
+}
+.bannder-title2{
+    display: block;
+    font-size: 33px;
+    font-family: 'MyMontserrat-Light';
+    margin-bottom: 10px;
+}
+.bannder-title3{
+    display: block;
+    font-family: 'MyMontserrat-Light';
+    font-weight: normal;
+    font-size: 18px;
+    margin: 4px 0px 4px 0px;
+    color: #666;
+}
+.banner-php{
+    margin: auto;
+}
+.banner-php embed{
+    display: block;
+    vertical-align: middle;
+    margin-top: auto;
+}
+.banner-php span{
+    font-family: 'MyMontserrat-Light';
+    color: #666;
+    text-align: center;
+    display: block;
+    font-size: 18px;
+}
+.banner-php .col-ban{
+    display: grid;
+    margin: 0px 50px 0px 50px;
+}
+.banner-php table tr td{
+    padding: 0px 50px 10px 50px;
+}
+
+.paket-header span{
+    display: block;
+    text-align: center;
+}
+.paket-header-1{
+    font-family: 'MyMontserrat-Bold';
+    font-size: 30px;
+}
+.paket-header-2{
+    font-family: 'MyMontserrat-Light';
+    font-size: 24px;
+}
+.paket-header table{
+    margin-top: 50px;
+    width: 100%;
+    border: 1px solid #eee;
+}
+.paket-header table td{
+    border: 1px solid #eee;
+    color: #555;
+    padding: 0.4rem;
+}
+.paket-header table thead tr.ph-title td{
+    text-align: center;
+    font-family: 'MyMontserrat-Bold';
+    font-size: 23px;
+    color: #555;
+}
+.paket-header table tbody tr td span.ph-price i{
+    font-family: 'MyMontserrat-Bold';
+    font-style: normal;
+}
+.paket-header table tbody tr td span.ph-price{
+    font-size: 16px;
+    margin: 5px 0px 20px 0px;
+
+}
+.paket-header table tbody tr td span.ph-price sub{
+    font-size: 45px;
+    font-family: 'MyMontserrat-Bold';
+    top: 20px;
+}
+.paket-header .ph-price td{
+    padding-bottom: 20px;
+    font-family: 'MyMontserrat-Light';
+}
+.paket-header .ph-regusers td{
+    padding: 10px;
+    font-family: 'MyRoboto-Regular';
+}
+.paket-header .ph-regusers strong{
+    font-family: 'MyRoboto-Bold';
+}
+.paket-header .ph-desc{
+    font-family: 'MyRoboto-Regular';
+}
+.paket-header .ph-desc td{
+    padding-top: 20px;
+}
+.paket-header .ph-desc td.best-seller{
+    border: 2px solid #218fee;
+}
+.paket-header .ph-desc span{
+    margin: 10px 0px 10px 0px;
+}
+.paket-header .ph-desc strong{
+    font-family: 'MyRoboto-Bold';
+}
+.paket-header .ph-desc a.button{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'MyRoboto-Bold';
+    border: solid 3px #444;
+    font-size: 15px;
+    color: #444;
+    margin-bottom: 20px;
+}
+.paket-header .ph-desc a.button:hover{
+    background-color: #218fee;
+}
+.paket-header .icon-star3{
+    color: #218fee;
+}
+.paket-header .ph-title .best-seller, .paket-header .ph-price .best-seller{
+    background-color: #218fee;
+    color: #F5F5F5;
+    border: solid 1px #218fee;
+}
+.paket-header .ph-regusers .best-seller{
+    background-color: #1b7fde;
+    color: #F5F5F5;
+    border: solid 1px #218fee;
+}
+.paket-header .ph-desc .best-seller a.button{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'MyRoboto-Bold';
+    border: solid 3px #218fee;
+    font-size: 15px;
+    background-color: #218fee;
+    color: #F5F5F5;
+}
+
+.row-ban.banner-php{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.powerful-row{
+    margin: auto;
+    display: flex;
+    max-width: 900px;
+}
+.powerful-header span{
+    display: block;
+    text-align: center;
+}
+.powerful-header-1{
+    font-family: 'MyMontserrat-Light';
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #777;
+}
+.table-powerphp{
+    width: 100%;
+}
+.table-powerphp tr td{
+    text-align: center;
+    font-family: 'MyRoboto-Regular';
+    font-size: 18px;
+    padding: 7px;
+    color: #777;
+}
+.table-powerphp tr td i{
+    font-size: 25px;
+}
+.table-powerphp tr td:first-child{
+    border-top : 1px solid #eee;
+    border-bottom : 1px solid #eee;
+    border-left : 1px solid #eee;
+}
+.table-powerphp tr td:last-child{
+    border-top : 1px solid #eee;
+    border-bottom : 1px solid #eee;
+    border-right : 1px solid #eee;
+}
+.table-powerphp tr.bg-gray td{
+    background-color: #eee;
+}
+
+
+.pakethosting-row{
+    margin: auto;
+    display: flex;
+    max-width: 1400px;
+    flex-wrap: wrap;
+}
+.pakethosting-header span{
+    display: block;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.pakethosting-header-1{
+    font-family: 'MyMontserrat-Light';
+    font-size: 30px !important;
+    margin-bottom: 15px;
+    color: #777;
+}
+.pakethosting-header-1::before{
+    content: '';
+    display: block;
+    margin-top: 30px;
+    width: 90px;
+    border-top: 6px solid #eee;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+.pakethosting-row embed{
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pakethosting-item{
+    display: grid;
+    padding: 30px 60px 30px 60px;
+}
+.pakethosting-item .title{
+    font-size: 21px;
+    font-family: 'MyMontserrat-Bold';
+    margin-top: 10px;
+}
+.pakethosting-header::after{
+    content: '';
+    display: block;
+    margin-top: 30px;
+    width: 90px;
+    border-top: 6px solid #eee;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
+.laravel-title{
+    font-family: 'MyMontserrat-Light';
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #777;
+}
+.laravel-subtitle{
+    display: block;
+    font-family: "MyMontserrat-light";
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 20px;
+}
+.laravel-col{
+    padding: 10px 10px 0px 10px;
+}
+.laravel-col embed{
+    width: 90%;
+    float: right;
+}
+.laravel-list{
+    display: block;
+    color: #777;
+    margin: 10px 5px 10px 0px;
+    font-size: 17px;
+}
+.laravel-nb{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.laravel-btn{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'MyRoboto-Bold';
+    border: solid 3px #218fee;
+    font-size: 16px;
+    background-color: #218fee;
+    color: #F5F5F5;
+}
+.laravel-btn:hover{
+    background-color: #fff;
+    color: #218fee;
+}
+
+.row-modul{
+    margin: auto;
+    display: flex;
+    max-width: 1400px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.col-modul span{
+    display: block;
+    font-family: 'MyRoboto-Regular';
+    font-size: 16px;
+    color: #777;
+}
+.modul-btn{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: 'MyMontserrat-Regular';
+    font-size: 18px;
+    border-width: 2px;
+    color: #444;
+    border: 3px solid #444;
+    background-color: #fff;
+}
+
+.row-support{
+    margin: auto;
+    display: flex;
+    max-width: 1400px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 30px;
+}
+.col-support{
+    padding: 26px 26px 0px 26px;
+}
+.col-support .title{
+    display: block;
+    font-family: 'MyMontserrat-Light';
+    font-size: 28px;
+    color: #777;
+    margin-bottom: 20px;
+    margin-right: 90px;
+}
+.col-support span{
+    display: block;
+    font-family: 'MyRoboto-Light';
+    font-size: 16px;
+    color: #777;
+}
+.col-support span strong{
+    font-family: 'MyRoboto-Bold';
+}
+.col-support img{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.modul-btn{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: 'MyMontserrat-Regular';
+    font-size: 18px;
+    border-width: 2px;
+    color: #444;
+    border: 3px solid #444;
+    background-color: #fff;
+}
+
+.section-share{
+    background-color: #f7f7f7;
+    height: 100px;
+    display: flex;
+}
+.section-share .row-share{
+    margin: auto;
+    display: flex;
+    max-width: 1100px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.section-share .col-share{
+    vertical-align: middle;
+}
+.col-share span{
+    font-family: 'MyMontserrat-Regular';
+}
+.col-share img{
+    width: 100px;
+}
+
+.section-contact{
+    background-color: #26a2f2;
+    height: 150px;
+    display: flex;
+}
+.section-contact .row-contact{
+    margin: auto;
+    display: flex;
+    max-width: 1100px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.section-contact .col-contact{
+    vertical-align: middle;
+}
+.section-contact .col-contact:first-child{
+    border-right: 1px solid #2ab0fb;
+}
+.section-contact .col-contact:last-child{
+    padding-left: 50px;
+}
+.col-contact span{
+    font-family: 'MyMontserrat-Light';
+    color: #fff;
+    font-size: 30px;
+}
+.col-contact span strong{
+    font-family: 'MyMontserrat-Regular';
+}
+.col-contact img{
+    width: 30px;
+    margin-right: 10px;
+}
+.contact-btn{
+    color: #fff;
+    background-color: #26a2f2;
+    border: 3px solid #fff;
+    font-family: 'MyRoboto-Regular';
+    font-size: 15px;
+    padding-right: 25px;
+}
+.contact-btn:hover{
+    color: #fff;
+    background-color: #26a2f2;
+    border: 3px solid #2ab0fb;
+    font-family: 'MyRoboto-Regular';
+    font-size: 15px;
+    padding-right: 50px;
+}
+
+.bbgray{
+    border-bottom: 1px solid #eee;
+}
+a.menu-link{
+    font-family: "MyRoboto-Regular";
+    font-size: 0.8rem;
+}
+a.ribbon-link{
+    color: #444;
+}
+.top-links-icon{
+    margin-right: 8px;
+    font-size: 1.1rem;
+    margin-top: -2px;
+}
+
+img.op6{
+    opacity: 0.6;
+}
+img.w15px{
+    width: 15px;
+}
+img.w90p{
+    width: 90%;
+}
+img.w85p{
+    width: 85%;
+}
+.fs1p5rem{
+    font-size: 1.5rem !important;
+}
+.banner-icon-check{
+    color:#2ab44c;
+    margin-right:10px;
+}
+.mt30{
+    margin-top: 30px;
+}
+.mt60{
+    margin-top: 60px;
+}
+.mb30{
+    margin-bottom: 30px;
+}
+.mb60{
+    margin-bottom: 60px;
+}
+.pull-right{
+    float: right;
+}
+.bb1pxsgr{
+    border-bottom: 1px solid #F5F5F5;
+}
+.disflex{
+    display: flex;
+}
+.disgrid{
+    display: grid;
+}
+tr.text-center td{
+    text-align: center;
+}
+
+#footer{
+    background-color: #303030;
+    color: #a1a1a1;
+    font-family: 'MyRoboto-Light';
+}
+#footer span{
+    display: block;
+    font-size: 14px;
+}
+#footer span:first-child{
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #818181;
+    font-family: 'MyRoboto-Regular';
+}
+#footer span a{
+    color: #a1a1a1;
+}
+.input-newsletter{
+    border-radius: 26px;
+    height: 3rem;
+}
+#footer .form-group{
+    height: 50px;
+    margin-bottom: 0px;
+}
+.button-newsletter{
+    top: -50px;
+    float: right;
+    height: 38px;
+    margin-top: 7px;
+    background-color: #26a2f2;
+    font-size: 12px;
+    padding: 6px 10px 6px 10px;
+}
+.newslatter-cap{
+    margin-top: 0px;
+    font-size: 15px !important;
+    opacity: 0.5;
+    position: absolute;
+}
+.footer-social img{
+    width: 60px;
+    margin: 35px 10px 20px 10px;
+}
+.col-footer-payment img{
+    width:100px;
+}
+.col-footer-payment{
+    
+}
+.col-footer-payment-cap{
+    margin-top: 20px;
+    opacity: 0.5;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #2a2a2a;
+}
+.copyright-cap{
+    font-size: 13px !important;
+    margin: 0px !important;
+}
+
+.col-paket{
+    border: 1px solid #eee;
+    padding: 0px;
+}
+.p0{
+    padding: 0px;
+}
+.p30{
+    padding: 30px;
+}
+.paket-title{
+    text-align: center;
+    font-family: 'MyMontserrat-Bold';
+    font-size: 23px;
+    color: #555;
+    border-bottom: 1px solid #eee;
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+}
+.paket-regprice{
+    font-family: 'MyMontserrat-light';
+}
+.paket-price{
+    font-family: 'MyMontserrat-Light';
+    font-size: 16px;
+    padding: 5px 0px 30px 0px;
+    color: #555;
+}
+.paket-price sub{
+    font-size: 45px;
+    font-family: 'MyMontserrat-Bold';
+    top: 20px;
+}
+.paket-price i{
+    font-family: 'MyMontserrat-Bold';
+    font-style: normal;
+}
+.paket-registered{
+    font-family: 'MyRoboto-Regular';
+    border-width: 1px 0px 1px 0px;
+    border-style: solid;
+    border-color: #eee;
+    margin: 0px 0px 25px 0px;
+    padding: 10px 0px 10px 0px;
+}
+.paket-registered strong{
+    font-family: 'MyRoboto-Bold';
+}
+.paket-include{
+    font-family: 'MyRoboto-Regular';
+}
+.paket-include strong{
+    font-family: 'MyRoboto-Bold';
+}
+.paket-include span{
+    margin: 10px
+}
+.paket-include a{
+    margin: 20px auto 20px auto;
+    font-family: 'MyRoboto-Bold';
+    border: solid 3px #444;
+    font-size: 15px;
+    color: #444;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.paket-include a:hover{
+    background-color: #218fee;
+    border: solid 3px #eee;
+}
+.paket-bestseller .paket-title{
+    background-color: #218fee;
+    color: #fff;
+    border-bottom: 1px solid #218fee;
+}
+.paket-bestseller .paket-regprice{
+    background-color: #218fee;
+    color: #fff;
+}
+.paket-bestseller .paket-price{
+    background-color: #218fee;
+    color: #fff;
+}
+.paket-bestseller .paket-registered{
+    background-color: #1b7fde;
+    color: #fff;
+    border-color: #1b7fde;
+}
+.paket-bestseller a.button{
+    color: #fff;
+    background-color: #218fee;
+    border-color: #218fee;
+}
+.paket-bestseller a.button:hover{
+    color: #218fee;
+    background-color: #fff;
+    border-color: #218fee;
+}
+.paket-bestseller{
+    border-color: #218fee;
+}
