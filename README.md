@@ -10,6 +10,11 @@ clone repository from git
 git clone https://github.com/adrianusagi/niagahoster.git
 ```
 
+enter directory niagahoster
+```
+cd niagahoster
+```
+
 build using docker
 ```
 docker-compose build
